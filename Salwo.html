@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Salwa Nasreldin – Pharmacy & Public Health CV</title>
+  <!-- Tailwind CSS + Font Awesome + Google Fonts -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: #eef2f5;
+    }
+    /* Custom print styles: keep professional look when printed */
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+        margin: 0;
+      }
+      .no-print-break {
+        break-inside: avoid;
+      }
+      .shadow-lg, .shadow-xl {
+        box-shadow: none;
+      }
+      .print-shadow-none {
+        box-shadow: none;
+      }
+      .bg-white {
+        background: white;
+      }
+      .text-gray-700, .text-gray-600 {
+        color: black;
+      }
+    }
+    /* subtle border accent */
+    .health-accent {
+      border-left: 4px solid #2c7a4d;
+    }
+    .hover-scale {
+      transition: transform 0.2s ease;
+    }
+    .hover-scale:hover {
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body class="bg-[#eef2f5] p-4 md:p-8 font-sans antialiased">
+
+  <div class="max-w-5xl mx-auto">
+    <!-- Main card -->
+    <div class="bg-white rounded-2xl shadow-xl overflow-hidden print-shadow-none">
+      
+      <!-- Header: personal info with photo placeholder + contact grid -->
+      <div class="bg-gradient-to-r from-emerald-800 to-teal-700 px-6 py-8 md:py-6 md:px-8 text-white">
+        <div class="flex flex-col md:flex-row gap-6 items-start md:items-center justify-between">
+          <!-- left side: name + title -->
+          <div class="flex-1">
+            <h1 class="text-3xl md:text-4xl font-bold tracking-tight">Salwa Nasreldin</h1>
+            <p class="text-emerald-100 text-lg mt-1 flex items-center gap-2"><i class="fas fa-graduation-cap text-emerald-200"></i> Pharmacy Graduate | Aspiring Public Health Professional</p>
+            <div class="flex flex-wrap gap-x-6 gap-y-2 mt-4 text-sm text-emerald-50">
+              <span class="flex items-center gap-2"><i class="fas fa-venus-mars w-4"></i> Female</span>
+              <span class="flex items-center gap-2"><i class="far fa-calendar-alt"></i> 26 Oct 1998</span>
+              <span class="flex items-center gap-2"><i class="fas fa-flag"></i> Sudanese</span>
+            </div>
+          </div>
+          <!-- right contact details as elegant block -->
+          <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4 w-full md:w-72 space-y-2 text-sm">
+            <div class="flex items-center gap-3"><i class="fas fa-map-marker-alt w-5 text-emerald-200"></i><span>26, Gamal El-Deen El-Banna, Cairo, 12564, Egypt</span></div>
+            <div class="flex items-center gap-3"><i class="fas fa-phone-alt w-5 text-emerald-200"></i><span>+20 1145863427 &nbsp;|&nbsp; +249 901062245</span></div>
+            <div class="flex items-center gap-3"><i class="fas fa-envelope w-5 text-emerald-200"></i><span class="truncate">Salwa.m.mahmoud98@gmail.com</span></div>
+            <div class="flex items-center gap-3"><i class="fas fa-language w-5 text-emerald-200"></i><span>Arabic (native), English (B2), German (B2 – Goethe)</span></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- body grid: left sidebar for core skills & digital, right side for experience/education -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-0">
+        <!-- LEFT COLUMN: personal skills, languages, certificates, digital -->
+        <div class="bg-gray-50 px-6 py-6 space-y-6 border-r border-gray-200">
+          
+          <!-- Personal Statement / Objective -->
+          <div class="bg-white p-4 rounded-xl shadow-sm border-l-4 border-emerald-600">
+            <h2 class="text-md font-bold uppercase tracking-wide text-emerald-800 flex items-center gap-2"><i class="fas fa-heartbeat"></i> Personal Statement</h2>
+            <p class="text-gray-700 text-sm leading-relaxed mt-2">Pharmacy graduate from Sudan (Ahfad University), currently based in Egypt. Applying for a Master's in International Public Health in Germany to deepen knowledge of global health systems, disease prevention, and health promotion. Responsible, motivated, and eager to contribute to improving healthcare outcomes in international settings.</p>
+          </div>
+          
+          <!-- Skills compact -->
+          <div>
+            <h3 class="font-semibold text-gray-800 flex items-center gap-2 text-base border-b pb-2 border-gray-200"><i class="fas fa-tasks text-emerald-600"></i> Core Competencies</h3>
+            <div class="flex flex-wrap gap-1.5 mt-3">
+              <span class="bg-emerald-100 text-emerald-800 text-xs px-3 py-1 rounded-full">Patient counselling</span>
+              <span class="bg-emerald-100 text-emerald-800 text-xs px-3 py-1 rounded-full">Team collaboration</span>
+              <span class="bg-emerald-100 text-emerald-800 text-xs px-3 py-1 rounded-full">Attention to detail</span>
+              <span class="bg-emerald-100 text-emerald-800 text-xs px-3 py-1 rounded-full">Organisational skills</span>
+              <span class="bg-emerald-100 text-emerald-800 text-xs px-3 py-1 rounded-full">Fast learner</span>
+              <span class="bg-emerald-100 text-emerald-800 text-xs px-3 py-1 rounded-full">Health promotion</span>
+              <span class="bg-emerald-100 text-emerald-800 text-xs px-3 py-1 rounded-full">Pharmaceutical compounding</span>
+            </div>
+          </div>
+
+          <!-- Language skills with table style -->
+          <div>
+            <h3 class="font-semibold text-gray-800 flex items-center gap-2 border-b pb-2 border-gray-200"><i class="fas fa-globe text-emerald-600"></i> Languages</h3>
+            <div class="mt-2 space-y-2 text-sm">
+              <div><span class="font-medium">Arabic</span> <span class="text-gray-500">(Mother tongue)</span></div>
+              <div><span class="font-medium">English</span> <span class="text-gray-500">– B2 (University studies, MOI available)</span></div>
+              <div><span class="font-medium">German</span> <span class="text-gray-500">– B2 (Goethe-Zertifikat B2)</span></div>
+            </div>
+          </div>
+          
+          <!-- Digital Skills with self-assessment -->
+          <div>
+            <h3 class="font-semibold text-gray-800 flex items-center gap-2 border-b pb-2 border-gray-200"><i class="fas fa-laptop-code text-emerald-600"></i> Digital Skills</h3>
+            <div class="mt-2 grid grid-cols-2 gap-1 text-xs">
+              <div class="bg-white p-1.5 rounded-md shadow-sm text-center">Info process <span class="font-bold">B2</span></div>
+              <div class="bg-white p-1.5 rounded-md shadow-sm text-center">Communication <span class="font-bold">B2</span></div>
+              <div class="bg-white p-1.5 rounded-md shadow-sm text-center">Content creation <span class="font-bold">B2</span></div>
+              <div class="bg-white p-1.5 rounded-md shadow-sm text-center">Safety <span class="font-bold">B1</span></div>
+              <div class="bg-white p-1.5 rounded-md shadow-sm text-center">Problem solving <span class="font-bold">B2</span></div>
+            </div>
+            <p class="text-xs text-gray-600 mt-2"><i class="fas fa-certificate text-emerald-500"></i> ICDL (Cairo University) – Microsoft Office, basic computer skills, Canva.</p>
+          </div>
+          
+          <!-- Certifications & courses highlights -->
+          <div>
+            <h3 class="font-semibold text-gray-800 flex items-center gap-2 border-b pb-2 border-gray-200"><i class="fas fa-award text-emerald-600"></i> Certifications</h3>
+            <ul class="mt-2 space-y-1.5 text-sm text-gray-700">
+              <li><i class="fas fa-check-circle text-emerald-500 text-xs w-4"></i> Goethe-Zertifikat B2 (German)</li>
+              <li><i class="fas fa-check-circle text-emerald-500 text-xs w-4"></i> ICDL – Cairo University</li>
+              <li><i class="fas fa-check-circle text-emerald-500 text-xs w-4"></i> First Aid Training Course</li>
+              <li><i class="fas fa-check-circle text-emerald-500 text-xs w-4"></i> Pharmaceutical & Dermal Compositions</li>
+              <li><i class="fas fa-check-circle text-emerald-500 text-xs w-4"></i> Prep. Course for Medical Representative (PCMR)</li>
+              <li><i class="fas fa-check-circle text-emerald-500 text-xs w-4"></i> Volunteer HUB certificate</li>
+            </ul>
+          </div>
+          
+          <!-- Driving license -->
+          <div class="flex items-center gap-3 text-sm bg-white p-3 rounded-lg shadow-sm">
+            <i class="fas fa-id-card text-emerald-600 text-lg"></i>
+            <div><span class="font-semibold">Driving licence:</span> Category B (Sudanese, expired)</div>
+          </div>
+          
+          <!-- Additional info annexes -->
+          <div class="text-xs text-gray-500 pt-2 border-t border-gray-200">
+            <i class="fas fa-paperclip"></i> Annexes available: academic certificates, ICDL, Goethe-Zertifikat B2, training certificates, volunteer certificate.
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN: Work Experience + Education & Training -->
+        <div class="lg:col-span-2 px-6 py-6 space-y-7 bg-white">
+          
+          <!-- Studies applied for / target master's -->
+          <div class="bg-emerald-50 rounded-xl p-4 border border-emerald-100">
+            <div class="flex gap-3 items-start">
+              <i class="fas fa-graduation-cap text-emerald-700 text-xl mt-0.5"></i>
+              <div>
+                <h2 class="font-bold text-emerald-800">🎯 Studies Applied For: Master's in International Public Health (Germany)</h2>
+                <p class="text-gray-700 text-sm">Expanding knowledge in global health systems, epidemiology, and health promotion. Strong motivation to bridge pharmacy practice with public health strategies.</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- WORK EXPERIENCE -->
+          <div>
+            <div class="flex items-center gap-2 border-b-2 border-emerald-200 pb-2 mb-4">
+              <i class="fas fa-briefcase text-emerald-700 text-xl"></i>
+              <h2 class="text-xl font-bold text-gray-800">Work Experience</h2>
+            </div>
+            <div class="space-y-5">
+              <!-- Volunteer HUB -->
+              <div class="relative pl-4 health-accent">
+                <div class="flex flex-wrap justify-between items-baseline">
+                  <h3 class="font-semibold text-gray-800 text-lg">Volunteer (Training & Educational Activities)</h3>
+                  <span class="text-xs text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full">Mar 2024 – Jun 2025</span>
+                </div>
+                <p class="text-emerald-700 text-sm font-medium">Volunteer HUB · Cairo/Egypt</p>
+                <ul class="list-disc list-inside text-gray-600 text-sm space-y-1 mt-2 marker:text-emerald-500">
+                  <li>Delivered basic computer skills (ICDL) and Scratch programming for children and youth.</li>
+                  <li>Organized and facilitated educational workshops & activities in structured environment.</li>
+                  <li>Developed teamwork, communication, and organisational abilities.</li>
+                </ul>
+              </div>
+              <!-- Wadi El Nil Pharmacy Intern -->
+              <div class="relative pl-4 health-accent">
+                <div class="flex flex-wrap justify-between items-baseline">
+                  <h3 class="font-semibold text-gray-800 text-lg">Pharmacy Intern (Community Pharmacy)</h3>
+                  <span class="text-xs text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full">Nov 2022</span>
+                </div>
+                <p class="text-emerald-700 text-sm font-medium">Wadi El Nil Pharmacy · Egypt</p>
+                <ul class="list-disc list-inside text-gray-600 text-sm space-y-1 mt-2">
+                  <li>Provided patient counselling under supervision, dispensed medications.</li>
+                  <li>Supported daily pharmacy operations and prescription handling.</li>
+                </ul>
+              </div>
+              <!-- Dr. Peter Pharmacy Trainee -->
+              <div class="relative pl-4 health-accent">
+                <div class="flex flex-wrap justify-between items-baseline">
+                  <h3 class="font-semibold text-gray-800 text-lg">Pharmacy Trainee (Community Pharmacy)</h3>
+                  <span class="text-xs text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full">Jan–Feb 2023</span>
+                </div>
+                <p class="text-emerald-700 text-sm font-medium">Dr. Peter Pharmacy · Egypt</p>
+                <ul class="list-disc list-inside text-gray-600 text-sm space-y-1 mt-2">
+                  <li>Patient counselling under supervision and assisted in dispensing medications.</li>
+                  <li>Hands-on experience in pharmaceutical, cosmetic & dermatological compounding.</li>
+                  <li>Gained compounding skills and community pharmacy practice.</li>
+                </ul>
+                <div class="mt-1 text-xs text-gray-400">Sector: Community Pharmacy / Pharmaceutical Compounding</div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- EDUCATION & TRAINING -->
+          <div>
+            <div class="flex items-center gap-2 border-b-2 border-emerald-200 pb-2 mb-4">
+              <i class="fas fa-university text-emerald-700 text-xl"></i>
+              <h2 class="text-xl font-bold text-gray-800">Education & Training</h2>
+            </div>
+            <div class="space-y-5">
+              <!-- Bachelor -->
+              <div class="relative pl-4 health-accent">
+                <div class="flex flex-wrap justify-between">
+                  <h3 class="font-semibold text-gray-800">Bachelor of Pharmacy (BPharm)</h3>
+                  <span class="text-xs text-gray-500">2016 – 2025</span>
+                </div>
+                <p class="text-emerald-700 text-sm">Ahfad University for Women, Sudan · EQF Level 6</p>
+                <p class="text-gray-600 text-sm mt-1">Pharmaceutical sciences, pharmacology, pharmaceutics, clinical pharmacy, patient counselling and practical training.</p>
+              </div>
+              <!-- Goethe -->
+              <div class="relative pl-4 health-accent">
+                <div class="flex flex-wrap justify-between">
+                  <h3 class="font-semibold text-gray-800">Goethe-Zertifikat B2</h3>
+                  <span class="text-xs text-gray-500">03 November 2025</span>
+                </div>
+                <p class="text-emerald-700 text-sm">Goethe-Institut · German language proficiency (B2 level)</p>
+              </div>
+              <!-- ICDL -->
+              <div class="relative pl-4 health-accent">
+                <div class="flex flex-wrap justify-between">
+                  <h3 class="font-semibold text-gray-800">ICDL (International Computer Driving License)</h3>
+                  <span class="text-xs text-gray-500">30 Jul – 20 Aug 2023</span>
+                </div>
+                <p class="text-emerald-700 text-sm">Cairo University · Microsoft Office, essential IT skills</p>
+              </div>
+              <!-- First Aid -->
+              <div class="relative pl-4 health-accent">
+                <div class="flex flex-wrap justify-between">
+                  <h3 class="font-semibold text-gray-800">First Aid Training Course</h3>
+                  <span class="text-xs text-gray-500">15–21 November</span>
+                </div>
+                <p class="text-gray-600 text-sm">Basic emergency response & first aid skills.</p>
+              </div>
+              <!-- Pharma & Dermal Compositions -->
+              <div class="relative pl-4 health-accent">
+                <div class="flex flex-wrap justify-between">
+                  <h3 class="font-semibold text-gray-800">Pharmaceutical & Dermal Compositions Course</h3>
+                  <span class="text-xs text-gray-500">August 2020</span>
+                </div>
+                <p class="text-gray-600 text-sm">Basics of pharmaceutical formulations and compounding techniques.</p>
+              </div>
+              <!-- PCMR -->
+              <div class="relative pl-4 health-accent">
+                <div class="flex flex-wrap justify-between">
+                  <h3 class="font-semibold text-gray-800">Preparation Course for Medical Representative (PCMR)</h3>
+                  <span class="text-xs text-gray-500">22–29 Jan 2023</span>
+                </div>
+                <p class="text-gray-600 text-sm">Pharmaceutical marketing, communication skills, medical detailing.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ADDITIONAL SKILLS & Job-related -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+            <div class="bg-gray-50 p-3 rounded-xl">
+              <div class="flex items-center gap-2"><i class="fas fa-comments text-emerald-600"></i><span class="font-semibold text-gray-700">Communication & Team</span></div>
+              <p class="text-xs text-gray-600 mt-1">Excellent interpersonal skills, patient interaction, team coordination, proven by volunteer work & pharmacy rotations.</p>
+            </div>
+            <div class="bg-gray-50 p-3 rounded-xl">
+              <div class="flex items-center gap-2"><i class="fas fa-clinic-medical text-emerald-600"></i><span class="font-semibold text-gray-700">Job-related competencies</span></div>
+              <p class="text-xs text-gray-600 mt-1">Pharmacy practice knowledge, healthcare procedures, medication dispensing, compounding, attention to detail, clinical setting adaptability.</p>
+            </div>
+            <div class="bg-gray-50 p-3 rounded-xl">
+              <div class="flex items-center gap-2"><i class="fas fa-chalkboard-user text-emerald-600"></i><span class="font-semibold text-gray-700">Organisational skills</span></div>
+              <p class="text-xs text-gray-600 mt-1">Task management, workshop facilitation, time management developed through volunteering and academic projects.</p>
+            </div>
+            <div class="bg-gray-50 p-3 rounded-xl">
+              <div class="flex items-center gap-2"><i class="fas fa-leaf text-emerald-600"></i><span class="font-semibold text-gray-700">Public Health interest</span></div>
+              <p class="text-xs text-gray-600 mt-1">Strong motivation to work in disease prevention, health promotion, and global health systems.</p>
+            </div>
+          </div>
+          
+          <!-- Volunteer & extra badges -->
+          <div class="flex flex-wrap gap-2 pt-2 border-t border-gray-100 text-xs text-gray-500">
+            <span><i class="far fa-clock"></i> Available for Master's intake (Germany)</span>
+            <span><i class="fas fa-globe-africa"></i> Multicultural background: Sudan, Egypt</span>
+            <span><i class="fas fa-heart"></i> Volunteer experience with youth & education</span>
+          </div>
+          
+          <!-- micro footer for completeness -->
+          <div class="text-right text-xs text-gray-400 mt-2 border-t pt-3">
+            <i class="fas fa-download"></i> Updated CV – Salwa Nasreldin – Pharmacy & International Public Health candidate
+          </div>
+        </div>
+      </div>
+      
+      <!-- optional bottom bar -->
+      <div class="bg-gray-50 px-6 py-3 text-center text-xs text-gray-500 border-t border-gray-200 flex justify-between flex-wrap">
+        <span><i class="fas fa-phone-alt"></i> +20 1145863427 / +249 901062245</span>
+        <span><i class="fas fa-envelope"></i> Salwa.m.mahmoud98@gmail.com</span>
+        <span><i class="fas fa-map-pin"></i> Cairo, Egypt</span>
+      </div>
+    </div>
+    <!-- design note: clean medical palette -->
+    <p class="text-center text-gray-400 text-xs mt-4">Tailored CV for Master's in International Public Health · Pharmacy background | German B2</p>
+  </div>
+</body>
+</html>
